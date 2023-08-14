@@ -1,0 +1,77 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.detailsTitle {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.detailsImageContainer {
+  width: 100%;
+  max-width: 500px;
+}
+
+.detailsImage {
+  width: 100%;
+  font-size: 30px;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.detailsPrice {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.detailsDescription {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.detailsImage1 {
+  margin-top: 1.5rem;
+  color: rgba(3, 19, 19, 0.779);
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.description1 {
+  width: min-content;
+  font-size: 25px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+  /* align-items: center; */
+}
+
+.description1 h3 {
+  margin-right: 2px;
+}
+
+.Nilay {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 30px;
+  /* margin-right: 1rem; */
+  /* margin-left: 0.5rem; */
+}
+
+.jaldapara {
+  height: 512px;
+  width: 768px;
+}
+
+@media(300px<=width <=854px) {
+  .Nilay {
+    flex-direction: column;
+  }
+}
